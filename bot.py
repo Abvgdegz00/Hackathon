@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Включаем токен для вашего бота
-TELEGRAM_TOKEN = '7742974007:AAE_cGKcVhQegxktTmCKjx_cXFvQHfUA8OE'
+TELEGRAM_TOKEN = 'TOKEN'
 
 async def start(update: Update, context: CallbackContext) -> None:
     """Отправляет сообщение при начале работы с ботом."""
